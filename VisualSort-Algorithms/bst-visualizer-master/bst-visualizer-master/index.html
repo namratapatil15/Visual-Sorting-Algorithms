@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Tree Visualizer</title>
+    <link rel="stylesheet" type="text/css" href="./assets/main.css" />
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+<div id="panel">
+    <div class="input-group">
+        <input id="insert" type="text" />
+        <button>&gt;</button>
+        <label>Insert</label>
+    </div>
+    <div class="input-group">
+        <input id="delay" type="text" />
+        <button>&gt;</button>
+        <label>Delay (ms)</label>
+    </div>
+    <div>
+        <button id="random">Insert Random</button>
+    </div>
+    <div>
+        <button id="download">Download PNG</button>
+    </div>
+    <div>
+        <button id="open-help">Help</button>
+    </div>
+</div>
+
+<div id="help" style="display: none">
+    <h2>Binary Search Tree Visualizer</h2>
+    <ul>
+        <li>Use the "Insert" input to add numbers to the tree.</li>
+        <li>Use the "Delay" input to slow down or speed up the insertion process.</li>
+        <li>Hold the left mouse button and drag to move the camera around.</li>
+        <li>Use the "Insert Random" button to insert a random number into the tree.</li>
+        <li>Use the up &amp; down arrow keys to zoom in/out.</li>
+    </ul>
+    <!-- <div>If you like <a href="https://github.com/WinterCore/bst-visualizer" target="_blank">this project</a> don't hesitate to give a star 🙂</div> -->
+    <div style="display: flex; justify-content: flex-end">
+        <button id="close-help">Close</button>
+    </div>
+</div>
+
+<a id="download-link" style="display: none"></a>
+
+<script src="./assets/bundle.min.js"></script>
+</body>
+</html>
