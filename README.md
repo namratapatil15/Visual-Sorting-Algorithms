@@ -13,7 +13,7 @@
 - 🟢 Insertion Sort  
 - 🔴 Merge Sort  
 - ⚪ Quick Sort  
-- 🟣 Heap Sort *(optional)*
+- 🟣 Heap Sort 
 
 
 Technologies Used
